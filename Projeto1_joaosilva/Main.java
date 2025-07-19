@@ -44,7 +44,7 @@ public class Main {
                 }
             }
         } else {
-            polygon = new Polygon(points);
+            polygon = new Polygon(points); //oo
         }
 
        
