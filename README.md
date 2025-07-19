@@ -1,15 +1,2 @@
 # ConvexHullClassifier
-Dado um conjunto de pontos dispersos num mapa bidimensional, pretendese encontrar a forma geom´etrica do contorno delimitado por esses pontos,
-tal como exemplificado na seguinte figura.
-A partir de um conjunto de pontos é necessario encontrar a area delimitadora que envolve todos os pontos. O algoritmo Convex Hull permite resolver
-este problema, nomeadamente a partir de uma lista de pontos é obtido uma
-outra lista de pontos mınima, contendo os pontos externos que definem os
-limites ocupado por todos os pontos. Essa lista de pontos percorrida por
-uma determinada ordem permite representar um polıgono.
-O polıgono obtido necessita de ser classificado enquanto figura geometrica,
-podendo ter duas formas geom´etricas b´asicas, designadamente triangulo ou
-quadrilatero. Estas figuras geometricas basicas podem ainda ser identificadas com maior detalhe, nomeadamente o triangulo pode ser equilatero e por
-outro lado, o quadrilatero pode ser retangulo ou quadrado.
-Depois de identificada a figura é tambem necessario calcular o seu perımetro.
-Resumidamente, a partir de um conjunto de pontos deve ser classificada a figura geometrica do Convex Hull formado por esses pontos e o seu perımetro. Note que pode utilizar um algoritmo Convex Hull ja implementado. Assim é necessario desenvolver um programa que permita resolver o
-problema utilizando o paradigma de POO.
+Given a set of points scattered on a two-dimensional map, the objective is to find the geometric shape of the contour delimited by these points, as exemplified in the following figure. From a set of points, it is necessary to find the bounding area that surrounds all the points. The Convex Hull algorithm solves this problem by obtaining a minimal list of points from a list of points, containing the external points that define the boundaries occupied by all the points. This list of points, traversed in a specific order, allows us to represent a polygon. The resulting polygon needs to be classified as a geometric figure, and it can have two basic geometric shapes: triangle or quadrilateral. These basic geometric figures can be further identified in greater detail; for example, a triangle can be equilateral, while a quadrilateral can be rectangular or square. Once the figure has been identified, its perimeter must also be calculated. In short, given a set of points, you must classify the Convex Hull geometric figure formed by these points and its perimeter. Note that you can use an already implemented Convex Hull algorithm. Therefore, it is necessary to develop a program that allows you to solve the problem using the OOP paradigm.
